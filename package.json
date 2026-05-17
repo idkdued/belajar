@@ -1,0 +1,14 @@
+{
+  "name": "mimo-agent-integration",
+  "version": "1.0.0",
+  "description": "Xiaomi MiMo AI Agent Integration — OpenClaw, Claude Code, Cursor",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/test-connection.js",
+    "chat": "node src/chat.js",
+    "benchmark": "node tests/benchmark.js",
+    "provider": "node src/setup-provider.js"
+  },
+  "keywords": ["xiaomi", "mimo", "ai", "agent", "openclaw"],
+  "license": "MIT"
+}
